@@ -30,7 +30,7 @@ I Am Opening A PDP
     Wait Until Element Is Visible  ${PDP_heading}  timeout=None  error=None
 
 
-I Am Setting QTY & Size And Adding The Products To The Basket
+I Navigate To Checkout
     Click Element  ${plus_element_pdp}
     Click Element  ${plus_element_pdp}
     Click Element  ${plus_element_pdp}
@@ -38,4 +38,7 @@ I Am Setting QTY & Size And Adding The Products To The Basket
     Click Element  ${add_to_cart}
 
 There Is a Success Message
-    Wait Until Element Is Visible  ${proceed_to_chekout}  timeout=None  error=None
+    Wait Until Element Is Visible  ${proceed_to_checkout}  timeout=None  error=None
+    Click Element  ${proceed_to_checkout}
+
+

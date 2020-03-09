@@ -1,6 +1,5 @@
 EMAIL = "Panchoff1111810@test.bg"
 EMAIL2 = "Panchoff123test.bg"
-EMAIL3 = "Panchoff119010@test.bg"
 FNAME = "Kiril"
 LNAME = "Panchov"
 PASS = "Kiril87**"
